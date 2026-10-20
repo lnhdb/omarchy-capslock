@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lnhdb.capslock",
+  "name": "Caps Lock",
+  "version": "1.0.0",
+  "author": "Dinh Le",
+  "license": "MIT",
+  "description": "Caps Lock indicator that lights up on the bar while Caps Lock is on",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "CapsLock.qml" },
+  "barWidget": {
+    "displayName": "Caps Lock",
+    "description": "Lights up while Caps Lock is on",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
